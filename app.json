@@ -28,6 +28,12 @@
     "plugins": [
       "expo-router",
       [
+        "expo-sensors",
+        {
+          "motionPermission": "Permita que $(PRODUCT_NAME) acesse os sensores de movimento"
+        }
+      ],
+      [
         "expo-splash-screen",
         {
           "image": "./assets/images/splash-icon.png",
